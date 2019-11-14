@@ -24,15 +24,11 @@ const useStyles = makeStyles(theme => ({
 
 export const GitHubResearcherApp = () => {
   const classes = useStyles();
-  const searchHistoryData = {
-    test:'test2',
-    test2:'test'
-  };
 
   return (
     <Provider store={store}>
     <div className={classes.app}>
-    <SearchHistoryContextProvider value={searchHistoryData}>
+    <SearchHistoryContextProvider>
       <GHRAppBar/>
       <Container className={classes.appContent}>
         <Grid container spacing={3}>
