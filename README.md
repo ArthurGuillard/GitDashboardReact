@@ -21,7 +21,7 @@ Another purpose was to try out different libraries:
 * Material UI (https://material-ui.com/)
 
 ## About principal components
-* ***GHRResearcher*** component: does request to GitHub and save a single request result into redux store. It also updates the Context used to handle the search History.
+* ***GHRResearcher*** component: does request to GitHub and save a single request result into redux store. It also updates the SearchHistoryContext used to handle the search History.
 * ***GHRDataDisplayer*** component: get a single user data from the redux store and displays information about each repositories(name, description, url, etc...).
 * ***GHRSearchHistory*** component: Gets search history data from the SearchHistoryContext and displays it as a list.
 
